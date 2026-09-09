@@ -470,3 +470,35 @@ button:hover {
     font-size: 17px;
   }
 }
+
+.video-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.video-arrow {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #b98273;
+  border-radius: 50%;
+  background: transparent;
+  color: #8b655b;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.video-arrow:hover {
+  background: #b98273;
+  color: #fffaf6;
+  transform: scale(1.08);
+}
+
+#videoCounter {
+  min-width: 45px;
+  font-size: 16px;
+  color: #8b655b;
+}
