@@ -1,8 +1,12 @@
 const startButton = document.getElementById("startButton");
 
 startButton.addEventListener("click", function () {
-  alert("Я приготовил для тебя кое-что особенное ❤️");
+  document.getElementById("about").scrollIntoView({
+    behavior: "smooth"
+  });
 });
+
+
 const memoryVideo = document.getElementById("memoryVideo");
 const memoryVideoSource = document.getElementById("memoryVideoSource");
 const prevVideo = document.getElementById("prevVideo");
